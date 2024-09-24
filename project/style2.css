@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 150%;
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: aquamarine;
+    margin: 40px;
+    padding: 10px 12px;
+
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input{
+    width: 40;
+    padding: 10px 12px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form button{
+      padding: 10px 120x;
+      width: 60%;
+      margin: 40px;
+      border-radius: 10px;
+}
